@@ -1,0 +1,13 @@
+push - Incompatible-
+Counterexample: o == null --> top() == null --> contradict inv !
+Correction: adding: @pre o != null
+
+pop - Compatible.
+
+top - Compatible.
+
+
+isEmpty- Incompatible -
+Counterexample: elements = [] (empty linkedlist), --> element.size() == 0 --> isEmpty()
+Correction: @post @return == true iff elements.size() == 0
+ 

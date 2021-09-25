@@ -1,0 +1,3 @@
+sapir $$f yuval 5647 yam 13
+yam $$f $$f $$f yuval sapir yuval
+sapir $$f yuval 6543 snow 4321
